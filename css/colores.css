@@ -1,18 +1,48 @@
-.box-darkcyan {
-    background-color: darkmagenta;
+h1 {
+    text-align: center;
+}
+.box-direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-style {
     width: 300px;
     height: 300px;
     margin: 20px;
+}
+.box-darkcyan {
+    background-color: darkmagenta;
+
 }
 .box-blue {
     background-color: blue;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
+
 }
 .box-brown {
     background-color: brown;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
+
+}
+.box-64-64-64 {
+    background-color: rgb(175, 118, 228);
+
+}
+.box-68-205-230 {
+    background-color: rgb(68, 205, 230);
+  
+}
+.box-236-98-98 {
+    background-color: rgb(236, 98, 98);
+ 
+}
+.box-C71585{
+    background-color: #C71585;
+ 
+}
+.box-7FFFD4 {
+    background-color:#7FFFD4;
+
+}
+.box-FF0000 {
+    background-color:#FF0000;
+
 }

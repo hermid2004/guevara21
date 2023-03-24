@@ -1,22 +1,42 @@
+* {
+    padding: 0;
+    background-color: rgb(242,242,242);
+}
 .main-box{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-top: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    /*vh: view height */
+    height: 100vh;
 }
 .box-style{
     width: 300px;
-    height: 450px;
-    margin: 5px;
+    margin: 0 40px;
+    background-color: rgb(255,255,255);
 }
 .box-1{
     border: 3px solid rgb(56, 13, 13);
+    display: inline-block;
 }
 .box-2{
     border: 3px dashed rgb(250,0,0);
+    display: inline-block;
+    height: 450px;
 }
 .box-3{
     border: 3px dotted rgb(225, 153, 153);
+    display: inline-block;
+    height: 450px;
 }
 .box-4{
     border: 8px double rgb(79, 18, 18);
+    display: inline-block;
+    height: 450px;
+}
+p {
+    font-size: 1.4em;
+    text-align: justify;
+    background-color: white;
 }

@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    margin: 0;
     background-color: rgb(242,242,242);
 }
 .main-box{
@@ -16,11 +17,23 @@
     margin: 0 40px;
     background-color: rgb(255,255,255);
     height: 460px;
-    display: flex;
-    align-items: flex-end;
-}
 
+}
+.product-box {
+   width: 230px;
+   height: 140px;
+   background-color: rgb(242,242,242);
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.img {
+    margin-top: -40px;
+    background-color: transparent;
+}
+/* caja de color*/
 .add-cart-1{
+    margin-bottom: 0;
+    margin-top: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,14 +41,37 @@
     height: 15%;
     background-color: rgb(39,200,164);
 }
+.product-text {
+    text-align: center;
+    background-color: white;
+}
+.product-text-span {
+    margin-bottom: 0;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64,64,64, .9);
+}
+.text-description{
+    background-color: white;
+    color: rgb(64,64,64, .9);
+    font-size: .8em;
+}
 .add-cart-1-span{
     background-color: transparent;
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.9em;
+    font-size: 1.0em;
 }   
 .add-cart-2{
+    margin-bottom: 0;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,9 +84,11 @@
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.9em;
+    font-size: 1.0em;
 }  
 .add-cart-3{
+    margin-bottom: 0;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +101,7 @@
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.9em;
+    font-size: 1.0em;
 } 
 p {
     font-size: 1.4em;

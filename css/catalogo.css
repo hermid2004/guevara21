@@ -68,7 +68,7 @@
     font-size: 1.8em;
     font-weight: 900;
     display: block;
-    margin: 20px;
+    margin: 10px;
 }
 .add-cart-1-span{
     background-color: transparent;
@@ -93,7 +93,7 @@
     font-size: 1.8em;
     font-weight: 900;
     display: block;
-    margin: 20px;
+    margin: 10px;
 }
 .add-cart-2-span{
     background-color: transparent;
@@ -118,7 +118,7 @@
     font-size: 1.8em;
     font-weight: 900;
     display: block;
-    margin: 20px;
+    margin: 10px;
 }
 .add-cart-3-span{
     background-color: transparent;
@@ -131,4 +131,23 @@ p {
     font-size: 1.4em;
     text-align: justify;
     background-color: white;
+}
+.star-style1 {
+    color: rgb(39,200,164);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style2 {
+    color: rgb(216, 48, 48);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style3 {
+    color: rgb(218, 144, 65);
+    font-size: 1.4em;
+    background-color: white;
+}
+.star-style4 {
+    color: rgb(99, 14, 218);
+    font-size: 1.4em;
 }

@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: darkmagenta;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    padding: 0;
+    transition: padding 2s;
+}
+.box-style1 {
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    background-color: darkmagenta;
+    position: relative;
+    top: 30px;
+    left: 20px;
+
+}
+
+.box-style:hover{
+  padding: 200px;
+  transition: padding 2s;
+}
+
+
+.box-style2 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: darkmagenta;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    padding: 0;
+    transition: padding 2s;
+    margin-left: 0px;
+    transition: margin 2s;
+}
+
+.box-style2:hover{
+    margin-left: 800px;
+    transition: margin 2s;
+}

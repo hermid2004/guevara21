@@ -13,17 +13,6 @@
     padding: 0;
     transition: padding 2s;
 }
-.box-style1 {
-    width: 600px;
-    height: 600px;
-    margin: 20px;
-    background-color: darkmagenta;
-    position: relative;
-    top: 30px;
-    left: 20px;
-
-}
-
 .box-style:hover{
   padding: 200px;
   transition: padding 2s;

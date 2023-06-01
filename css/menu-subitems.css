@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: rgb(64,64,64);
+    height: 70px;
+}
+nav ul {
+    background-color: rgba(41, 239, 226, 0.693);
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
+nav > ul >li {
+    width: 250px;
+    float: left;
+    font-size: 1.4em;
+    line-height: 70px;
+    text-align: center;
+}
+li {
+    position: relative;
+}
+nav >ul li:hover {
+    cursor: pointer;
+    background-color: rgb(17, 181, 210);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+nav li:hover >ul >li {
+    max-height: 500px;
+    overflow: visible;
+    transition: 0.5s;
+}
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}

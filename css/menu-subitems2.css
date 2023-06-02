@@ -5,17 +5,18 @@
 }
 nav {
     background-color: rgb(64,64,64);
-    height: 70px;
-}
+    height: 70px
+ }
 nav ul {
-    background-color: rgba(22, 81, 77, 0.693);
+    background-color: rgba(238, 238, 238, 0.693);
     list-style: none;
     position: absolute;
     width: 100%;
+    
 }
 nav > ul >li {
     width: 250px;
-    float: left;
+    float: right;
     font-size: 1.4em;
     line-height: 70px;
     text-align: center;
@@ -44,4 +45,4 @@ nav li:hover >ul >li {
 nav ul ul ul {
     left: 100%;
     top: 0;
-}
+} 

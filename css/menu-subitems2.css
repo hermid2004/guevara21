@@ -17,7 +17,7 @@ nav ul {
 nav > ul >li {
     width: 250px;
     float: right;
-    font-size: 1.4em;
+    font-size: 1.5rem;
     line-height: 70px;
     text-align: center;
 }
@@ -31,6 +31,18 @@ nav >ul li:hover {
 a {
     color: white;
     text-decoration: none;
+}
+a:hover {
+    background-color: rgb(17, 181, 210);
+    cursor: pointer;
+}
+.icon-style {
+    margin-right: 8px;
+    font-size: 0.85em;
+}
+.icon-sd {
+    position: relative;
+    left: 23px;
 }
 nav li li{
     max-height: 0;
@@ -46,3 +58,43 @@ nav ul ul ul {
     left: 100%;
     top: 0;
 } 
+.e {
+    display: none;
+}
+/* @media only screen and (max-width: 1500px) {
+    .main-menu {
+      height: 100vh;
+      background-color: rgb(64, 64, 64);
+      list-style: none;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+       left: -100%; 
+      transition: left 1800ms;
+
+    }
+    .main-menu-block {
+      height: 100vh;
+      background-color: rgb(64, 64, 64);
+      list-style: none;
+      text-align: center; 
+      position: fixed;
+      width: 100%;
+      left: 0;
+      transition: left 1800ms;
+    }
+    .item-style {
+      display: block;
+      border-bottom: 1px solid rgb( 225, 225, 225,.2);
+    }
+    .menu-bar {
+      display: inline-block;
+      color: white;
+      padding-top: 1opx;
+      margin-left: 25px;
+      font-size: 2em;
+   }
+   .menu-bar:hover {
+      cursor: pointer;
+   }
+} */

@@ -1,0 +1,227 @@
+* {
+ font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.box-1 {
+    display: flex;
+    flex-direction: column;
+} 
+.box-gen {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:900;
+}
+.box-2 {
+    display: flex;
+    flex-direction: row;
+} 
+.box-3 {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.box-4 {
+    display: flex;
+    flex-wrap: nowrap;
+} 
+.box-5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+.box-main-wrap {
+    gap: 20px;
+    height: 280px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
+.box-6 {
+    display: flex;
+    justify-content: space-between;
+}
+.box-7 {
+    display: flex;
+    justify-content: space-around;
+}
+.box-8 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-9 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box-height {
+    height: 500px;
+    gap: 70px;
+}
+.box-10 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box-11 {
+    display: flex;
+    flex-wrap: nowrap;
+} 
+.box1-1 {
+   display: flex;
+   flex-wrap: nowrap;
+}
+.box-gen1 {
+    width: 70px;
+    height: 100px;
+    margin: 5px;
+    margin-top: 270px;
+    background-color: rgb(170, 255, 23);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen2 {
+    width: 70px;
+    height: 210px;
+    margin: 5px;
+    margin-top: 60px;
+    background-color: rgb(235, 17, 17);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen3 {
+    width: 70px;
+    height: 180px;
+    margin: 5px;
+    margin-top: 90px;
+    background-color: rgb(191, 32, 249);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen4 {
+    width: 70px;
+    height: 180px;
+    margin: 5px;
+    margin-top: 270px;
+    background-color: rgba(189, 221, 7, 0.673);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen5 {
+    width: 70px;
+    height: 180px;
+    margin: 5px;
+    margin-top: 90px;
+    background-color: rgb(24, 249, 245);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen6 {
+    width: 70px;
+    height: 140px;
+    margin: 5px;
+    margin-top: 130px;
+    background-color: rgb(81, 228, 18);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen7 {
+    width: 70px;
+    height: 160px;
+    margin: 5px;
+    margin-top: 110px;
+    background-color: rgb(22, 109, 249);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen8 {
+    width: 70px;
+    height: 280px;
+    margin: 5px;
+    margin-top: -10px;
+    background-color: rgb(117, 24, 117);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen9 {
+    width: 70px;
+    height: 180px;
+    margin: 5px;
+    margin-top: 90px;
+    background-color: rgb(173, 80, 33);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen10 {
+    width: 70px;
+    height: 180px;
+    margin: 5px;
+    margin-top: 270px;
+    background-color: rgb(234, 52, 6);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen11 {
+    width: 70px;
+    height: 160px;
+    margin: 5px;
+    margin-top: 110px;
+    background-color: rgb(230, 165, 25);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400
+}
+.box-gen12 {
+    width: 70px;
+    height: 280px;
+    margin: 5px;
+    margin-top: 265px;
+    background-color: rgb(228, 113, 12);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight:400;
+}

@@ -8,7 +8,7 @@ menuBar.addEventListener("click", function(){
       mainMenu.classList.remove("main-menu");
    }
    else {
-     mainMenu.classList.add("main-menu");
-     mainMenu.classList.remove("main-menu-block");
+     .classList.add("main-menu");
+     .classList.remove("main-menu-block");
    }
 });

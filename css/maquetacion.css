@@ -101,5 +101,39 @@ header {
 .style-texto-article {
     line-height: 1.5em;
     text-align: justify;
-    color: rgb(229, 235, 235);
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width:1390px) {
+    .main-contents {
+        display: grid;
+        grid-template: "img-principal img-principal img-principal  img-principal" auto
+            "empty-left  article-1   article-2  empty-right" 500px "empty-left  article-3   article-4  empty-right" 500px "empty-left  article-5   article-6    empty-right" 500px /
+            1fr 350px 350px 1fr;
+    }
+
+    .img-fondo-grande {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-principal {
+
+        height: 500px;
+
+    }
+}
+
+@media screen and (max-width:960px) {
+    .main-contents {
+        display: grid;
+        grid-template: "img-principal img-principal img-principal " auto
+            "empty-left  article-1     empty-right" 500px "empty-left  article-2     empty-right" 500px "empty-left  article-3     empty-right" 500px "empty-left  article-4     empty-right" 500px "empty-left  article-5     empty-right" 500px "empty-left  article-6     empty-right" 500px /
+            0.5fr 350px 0.5fr;
+    }
+
+    .img-principal {
+
+        height: 350px;
+
+    }
 }

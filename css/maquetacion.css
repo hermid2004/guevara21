@@ -52,13 +52,13 @@ header {
     grid-area: img-principal;
     width: 100%;
     height: 600px;
-    background-color: rgb(138, 25, 250);
+    background-color: rgb(255, 255, 255);
 }
 
 .article {
     width: 350px;
     height: 350px;
-    background-color: rgb(85, 56, 230);
+    background-color: rgb(254, 254, 254);
 }
 
 .article-1 {
@@ -128,7 +128,7 @@ header {
         display: grid;
         grid-template: "img-principal img-principal img-principal " auto
             "empty-left  article-1     empty-right" 500px "empty-left  article-2     empty-right" 500px "empty-left  article-3     empty-right" 500px "empty-left  article-4     empty-right" 500px "empty-left  article-5     empty-right" 500px "empty-left  article-6     empty-right" 500px /
-            0.5fr 350px 0.5fr;
+            0.5fr 323px 0.9fr;
     }
 
     .img-principal {

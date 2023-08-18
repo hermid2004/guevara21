@@ -33,13 +33,12 @@ nav {
     font-family:'Poppins', sans-serif ;
     font-weight: 700;
     position: relative; 
-    top: 30px;
+    top: 45px;
     left: 50px;
 }
 .box-1 {
     padding: 20px 30px 28px 30px;
     display: inline-block;
-  
     padding-top: 10px;
 }
 a {
@@ -47,4 +46,20 @@ a {
 }
 .box-1>:hover {
     background-color: rgba(48, 47, 47, 0.226);
+}
+.main-menu2 {
+    list-style: none;
+    height: 90px;
+    width: 100%;
+    font-size: 1.7em;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 700;
+    position: relative; 
+    bottom: 14%;
+    left: 1200px;
+}
+.fa-solid {
+    padding: 20px 30px 28px 30px;
+    display: inline-block;
+    padding-top: 10px
 }

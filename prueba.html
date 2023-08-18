@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba</title>
+    <link rel="stylesheet" href="css/prueba.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portafolio</a>
+        <a href="#">Team</a>
+        <a href="#">contact</a>
+        <div id="indicador"></div>
+    </nav>
+    <script>
+        let marker = document.querySelector("#indicador");
+        let nav = document.querySelector("nav");
+        let item = document.querySelectorALL("nav a");
+
+        nav.onclick = function(){
+            marker.classList.toggle("change");
+        }
+
+        function indicador(e){
+            marker.style.left = e.offsetleft + "px" ;
+            marker.style.width = e.offsetwidth + "px" ;
+            marker.style.display = "block" ;
+        }
+       item.forEach(link => {
+            link.addEventistener("click", (e) =>{
+                indicador(e.target);
+            })
+        }); 
+    </script>
+</body>
+</html>

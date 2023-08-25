@@ -2,40 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a mi portafolio</title>
+    <title>portafolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
-    <img src="img/tt.jpg" alt="">
-    <h1>Hola a todos</h1>
-    <h2>Hermid Guevara Palechor</h2>
-    <h3>Telefono: 3174975703</h3>
-    <ul>Menú
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="fuentes.html">fuentes</a>
-        <!-- <ul> -->
-            <li><a href="fuente1.html">fuente1</a></li>
-            <li><a href="fuente2.html">fuente2</a></li>
-            <li><a href="fuente3.html">fuente3</a></li>
-            <li><a href="colores.html">colores</a></li>
-            <li><a href="catalogo.html">catalogo</a></li>
-            <li><a href="tablas.html">tabla</a></li>
-            <li><a href="menú-horizontal.html">menú</a></li>
-            <li><a href="media-query.html">media-query</a></li>
-            <li><a href="menu-subitems.html">subitems</a></li>
-            <li><a href="transitions.html">transition</a></li>
-            <li><a href="menu-subitems2.html">subitems2</a></li>
-            <li><a href="flexbox.html">flexbox</a></li>
-            <li><a href="calendario.html">calendario</a></li>
-            <li><a href="maquetacion.html">maquetacion</a></li>
-            <li><a href="maquetacion2.html">maquetacion2</a></li>
-            <li><a href="prueba - copia.html">portafolio</a></li>
-            <li><a href="starbucks.html">starbucks</a></li>
-        <!-- </ul> -->
-        </li>
-    </ul>
+    <header class="header">
+        <a href="#" class="logo">Portafolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#" class="active">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="portafolio">Portafolio</a>
+            <a href="contact">contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-contect">
+            <h3>Hola,</h3>
+            <h1>Hermid Guevara</h1>
+            <h3>soy aprendiz <span>Produccion de multimedia</span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, esse ab. Necessitatibus, facilis? Incidunt nam cupiditate illum?z</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i> </a>
+            </div>
+            <a href="" class="btn">Download CV</a>
+        </div> 
+        <div class="home-img">
+            <img src="img/personaje_Hermid Guevara.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img8.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae similique optio nostrum ullam at laborum dolorem consequuntur cupiditate, iste praesentium qui tempore ipsa omnis nam suscipit perferendis quod deserunt architecto? Nesciunt perspiciatis obcaecati quos eveniet reiciendis voluptates possimus incidunt, repellendus accusamus. Ratione doloremque sed asperiores.</p>
+            <a href="#" class="btn">Real More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heaing">Our <span>services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-css3'></i>
+                <h3>Web css</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rerum eius quod minus soluta dolorum accusamus maxime laudantium illo quas.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-html5' ></i>
+                <h3>Web html</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rerum eius quod minus soluta dolorum accusamus maxime laudantium illo quas.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-javascript' ></i>
+                <h3>Web javascript</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rerum eius quod minus soluta dolorum accusamus maxime laudantium illo quas.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-adobe' ></i>
+                <h3>Web adobe</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rerum eius quod minus soluta dolorum accusamus maxime laudantium illo quas.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    </section>
+    <section class="portafolio" id="portafolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+        <div class="portafolio-container">
+            <div class="portafolio-box">
+                <img src="img/HERMID.jpg" alt="">
+                <div class="portafolio-layer">
+                    <a href="fuente1.html">fuente1</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/personaje_Hermid Guevara.jpg" alt="">
+                <div class="portafolio-layer">
+                    <a href="starbucks.html">starbucks</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/1692881071321.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/img4.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/img5.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/img6.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

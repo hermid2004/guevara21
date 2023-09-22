@@ -53,12 +53,14 @@ nav ul a {
     text-align: center;
     background-color: rgb(250, 250, 250);
 }
-
+.img-big1 {
+    width: 1905px;
+}
 .main-foto1 {
     grid-area: main-foto1;
-
     display: blocK;
     margin: 0 auto;
+    left: 100px;
 }
 .main-foto2 {
     grid-area: main-foto2;

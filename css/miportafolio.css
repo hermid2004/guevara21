@@ -3,6 +3,7 @@
     padding: 0%;
 }
 nav {
+    background-color: aqua;
     width: 100%;
     display: grid;
     grid-template: "logo  box-main-menu" /

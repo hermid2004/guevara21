@@ -128,28 +128,6 @@ h3 {
 .ti {
     color: white;
 }
-
-.slider {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    margin: 50px auto 0;
-    
-}
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    position: relative;
-}
-.slider li {
-    width: 100%;
-    list-style: none;
-}
-.slider img {
-    width: 100%;
-    height: 100%;
-}
 .box-main-text{
     display: grid;
     grid-template: "empty-left  empty-center    empty-right"
@@ -160,4 +138,63 @@ h3 {
 
 .box-main-text{
     grid-area: box-main-text;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+header {
+    height: 95px;
+}
+.box-carousel {
+    width: 400%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+}
+.box-carousel-1 {
+    left: 0;
+}
+.box-carousel-2 {
+    left: -100%;
+}
+.box-carousel-3 {
+    left: -200%;
+}
+.box-carousel-4 {
+    left: -300%;
+}
+.carousel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(100vh - 95px);
+}
+.box-img-carousel {
+    height: calc(100vh - 95px);
+    width: 25%;
+}
+.img-carousel{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.icon-chevron-left, .icon-chevron-right {
+    font-size: 3em;
+    color: white;
+    top:500px;
+    position: fixed;
+}
+.icon-chevron-left { 
+    left: 20px;
+    color: aqua;
+}
+.icon-chevron-right {
+    color: yellow;
+    right: 50px; 
+}
+.box-car-1 {
+    height: 500px;
+/*     background-color: yellow; */
 }

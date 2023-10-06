@@ -380,9 +380,9 @@
     color: hsl(0deg, 0%, 0%);
     font-weight: 700;
   }
-  .cart-modal__delete:hover {
+/*   .cart-modal__delete:hover {
     cursor: pointer;
-  }
+  } */
   .cart-modal__chekount {
     background-color: hsl(26deg, 100%, 55%);
     width: 100%;
@@ -422,11 +422,7 @@
     height: 30px;
   }
   .modal-gallery__close {
-    width: 16px;
-  }
-  .modal-gallery__close:hover {
-    cursor: pointer;
-    content: url("img/hola/icon-close-orange.svg");
+    width: 100px;
   }
   .modal-gallery__image-container {
     background-image: url("img/hola/image-product-1.jpg");

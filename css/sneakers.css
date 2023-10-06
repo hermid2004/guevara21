@@ -421,6 +421,7 @@
   .modal-gallery__image-container {
     background-image: url("img/hola/image-product-1.jpg");
     height: 446px;
+    width: 100%;
     background-size: cover;
     border-radius: 16px;
     margin-bottom: 32px;

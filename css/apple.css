@@ -96,7 +96,6 @@ nav ul a {
 }
 .photos-gallery-2 {
     margin-top: 10px;
-    background: black;
     display: grid;
     grid-template: "empty-left main-foto3 empty-right" /
                     1fr        auto       1fr;
